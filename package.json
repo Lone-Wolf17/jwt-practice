@@ -1,0 +1,28 @@
+{
+  "name": "jwt-practice",
+  "version": "1.0.0",
+  "description": "Simple Project to practice usage of jsonwebtokens",
+  "main": "./dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=dev ts-node-dev --respawn --pretty --transpile-only src/server.ts"
+  },
+  "keywords": [
+    "Typescript",
+    "Node",
+    "JsonWebToken"
+  ],
+  "author": "Lone Wolf",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jwt-simple": "^0.5.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jwt-simple": "^0.5.33",
+    "@types/node": "^17.0.25",
+    "ts-node-dev": "^1.1.8"
+  }
+}
